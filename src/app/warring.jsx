@@ -34,9 +34,9 @@ export default function Warring() {
         <Heading2 headingText={"Disclaimer"} />
 
         <p className="border-t-2 border-black pt-4">
-          Please be informed that this website is not affiliated with Markham
-          College of Commerce, Hazaribagh. It has been independently developed
-          by a student of Markham College. The data displayed on this website is
+          Please be informed that this website is not affiliated with Mewat
+          Engineering College , Mewat . It has been independently developed
+          by Mo Savez. The data displayed on this website is
           for demonstration purposes only and holds no association with the
           college.
         </p>

@@ -4,9 +4,9 @@ import CoursesWeOffer from "@/components/public/CoursesWeOffer";
 import GetInTouch from "@/components/public/footer/GetInTouch";
 
 export const metadata = {
-  title: "About Us - Markham College of Commerce",
+  title: "About Us - Mewat Engineering College",
   description:
-    "Markham College of Commerce, Hazaribagh was established on 10th February 1974. It is one of the premier institutions established to impart & provide in the field of higher education for the deserving candidates and prove to be a milestone in the part of progress.",
+    "Mewat Engineering College, Mewat was established on 10th February 1974. It is one of the premier institutions established to impart & provide in the field of higher education for the deserving candidates and prove to be a milestone in the part of progress.",
 };
 
 const AboutUs = () => {
@@ -50,14 +50,14 @@ const AboutUs = () => {
     },
     {
       title: "Affiliation",
-      value: "Vinoba Bhave University, Hazaribagh",
+      value: "Gurugram University , Gurugram",
     },
   ];
 
   return (
     <div className="max-w-screen-lg mx-auto py-4 px-2">
       <h1 className="text-3xl font-semibold my-8">
-        About us - Markham college of commerce, Hazaribagh
+        About us - Mewat Engineering College, Mewat
       </h1>
       <CollegeAddress />
 
@@ -77,9 +77,9 @@ const AboutUs = () => {
 
         <p>
           <span className="text-primary-regular">
-            Markham College of Commerce,
+            Mewat Engineering College,
           </span>{" "}
-          Hazaribagh was established
+          Mewat was established
           <span className="text-primary-regular"> on 10th February 1974.</span>
         </p>
         <p>
@@ -88,9 +88,9 @@ const AboutUs = () => {
           prove to be a milestone in the part of progress.
         </p>
         <p>
-          The college is presently affiliated with Vinoba Bhave University,
-          Hazaribag and therefore it is a constituent part of this university
-          and recognized by the University Grants Commission (UGC) under section
+          The college is presently affiliated with Gurugram University, Gurugram
+          and therefore it is a constituent part of this university and
+          recognized by the University Grants Commission (UGC) under section
           2(f) on 25th June 1997 & 12(B) on 21st March 2012 under Act, 1956.
         </p>
         <p>
@@ -103,14 +103,14 @@ const AboutUs = () => {
           were its founder chairman and Late Rameshwar Prasad (Ram Babu) Ex-MLC
           was the founder secretary.
         </p>
-        <p>
-          Later, the most reverend word of this place ‘Markham’ was added and
+        {/* <p>
+          Later, the most reverend word of this place ‘Mewat’ was added and
           accepted to the name of this college to pay obeisance to the long and
           noble services that were being imparted by this Irish Pastor Mr. A. F.
-          Markham who was the longest serving Principal of St. Columba’s
-          College, Hazaribag and later the Vice-chancellor of Ranchi University,
+          who was the longest serving Principal of St. Columba’s
+          College, Mewat and later the Vice-chancellor of Ranchi University,
           Ranchi.
-        </p>
+        </p> */}
         <p>
           At the time of the foundation of this college Dr. Maheshwar Tiwari,
           who as a founder Principal and Prof-in-charge of the college took a
@@ -124,9 +124,8 @@ const AboutUs = () => {
         </p>
         <p>
           The college offers three years undergraduate courses in Arts, Science,
-          Commerce, & Management streams under Vinoba Bhave University,
-          Hazaribag. The college is also providing Honours teaching in
-          vocational subjects.
+          Commerce, & Management streams under Gurugram University , Gurugram.
+          The college is also providing Honours teaching in vocational subjects.
         </p>
 
         <div className="max-w-full">

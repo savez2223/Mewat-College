@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
-import GoogleMap from "./GoogleMap";
 import GetInTouch from "./GetInTouch";
 import CopyWriteSection from "./CopyWriteSection";
+import GoogleMap from "./GoogleMap";
 
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
 
         {/* ======== Google Map ======= */}
         <div className="col-span-4">
-          <GoogleMap />
+          <GoogleMap/>
         </div>
 
         {/* ======== Get In Touch ========== */}

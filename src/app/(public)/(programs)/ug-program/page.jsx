@@ -11,9 +11,9 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const metadata = {
-  title: "Ug Programs - Markham College of Commerce, Hazaribagh",
+  title: "Ug Programs - Mewat Engineering College, Mewat",
   description:
-    "Welcome to Markham College of Commerce, located in Hazaribagh, Jharkhand. We offer a wide range of UG, PG, and Vocational programs such as BCA, BBA, BJMC, and BMLT. As a government-owned college affiliated with Vinoba Bhave University, we provide quality education for 12th pass students seeking UG degrees and specialized vocational programs. Explore our comprehensive curriculum and dynamic learning environment to shape a successful future.",
+    "Welcome to Mewat Engineering College, located in Mewat, Haryana. We offer a wide range of UG, PG, and Vocational programs such as BCA, BBA, BJMC, and BMLT. As a government-owned college affiliated with Gurugram University, we provide quality education for 12th pass students seeking UG degrees and specialized vocational programs. Explore our comprehensive curriculum and dynamic learning environment to shape a successful future.",
 };
 
 const UgPrograms = () => {
@@ -24,7 +24,7 @@ const UgPrograms = () => {
     },
     {
       title: "Degree Issued By:",
-      value: "Vinoba Bhave University, Hazaribagh",
+      value: "Gurugram University , Gurugram",
     },
     {
       title: "Scholarship",
@@ -136,8 +136,8 @@ const UgPrograms = () => {
       <h1 className="text-xl sm:text-2xl font-bold my-2">UG Programs</h1>
       <hr />
       <p className="text-lg mt-4">
-        <span className="text-4xl text-primary-regular font-bold">M</span>arkham
-        College of Commerce offers a range of undergraduate courses designed to
+        <span className="text-4xl text-primary-regular font-bold">M</span>ewat
+        Engineering College offers a range of undergraduate courses designed to
         equip students with the skills and knowledge necessary for success in
         various industries. Our UG programs include:
       </p>
@@ -154,8 +154,8 @@ const UgPrograms = () => {
       {/* // Courses We Offer */}
       <Heading2 headingText={"Exploring UG Courses"} />
       <p className="my-8">
-        At Markham College of Commerce, we offer a variety of UG courses
-        designed to meet the diverse interests of our students.
+        At Mewat Engineering College, we offer a variety of UG courses designed
+        to meet the diverse interests of our students.
       </p>
       <div className="max-w-full overflow-hidden">
         {/* ===== Science Stream ===== */}
@@ -186,7 +186,7 @@ const UgPrograms = () => {
               Commerce (B.com)
             </h3>
             <p className="text-slate-600 mb-4">
-              Markham College of Commerce offers a range of B.Com courses,
+              Mewat Engineering College offers a range of B.Com courses,
               providing students with a solid foundation in commerce and
               business practices
             </p>
@@ -217,15 +217,15 @@ const UgPrograms = () => {
       <div className="mb-10">
         <Heading3 headingText={"Empowering Your Academic Journey"} />
         <p className="my-4">
-          At Markham College of Commerce, our UG courses are designed to foster
+          At Mewat Engineering College, our UG courses are designed to foster
           intellectual growth, critical thinking, and holistic development. We
           believe in nurturing well-rounded individuals who are not only experts
           in their chosen fields but also responsible citizens and leaders.
         </p>
         <p className="my-4">
           With dedicated faculty, modern facilities, and a vibrant campus
-          community, Markham College of Commerce is your gateway to pursuing
-          your passions and achieving academic excellence in your UG journey.
+          community, Mewat Engineering College is your gateway to pursuing your
+          passions and achieving academic excellence in your UG journey.
         </p>
       </div>
       <Heading3 headingText={"Our Location"} />

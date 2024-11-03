@@ -1,7 +1,7 @@
 
-# Markham College of Commerce
+# Mewat Engineering College
 
-Welcome to the website of Markham College of Commerce!
+Welcome to the website of Mewat Engineering College!
 ___
 
 ### Design overview
@@ -24,12 +24,12 @@ ___
 ---
 
 ## Introduction
-The Markham College of Commerce website showcases our institution's academic programs, infrastructure, and commitment to providing quality education. Here, you will find information about our undergraduate (UG), postgraduate (PG), and vocational programs (BCA, BBA, BJMC, BTML), all designed to meet the needs of aspiring students.
+The Mewat Engineering College website showcases our institution's academic programs, infrastructure, and commitment to providing quality education. Here, you will find information about our undergraduate (UG), postgraduate (PG), and vocational programs (BCA, BBA, BJMC, BTML), all designed to meet the needs of aspiring students.
 
 ## Features
 
 - Wide range of UG, PG, and Vocational programs
-- Government-owned college affiliated with Vinoba Bhave University
+- Government-owned college affiliated with Gurugram University
 - Dedicated faculty with expertise in respective fields
 - State-of-the-art infrastructure and advanced labs
 - Holistic development approach focusing on academics, character, and extracurricular activities

@@ -6,9 +6,9 @@ const SupportLink = () => {
   const links = [
     {
       id: 1,
-      src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3tsG0WB3oALeuPH1zOxHULY4I8Dg2M0w6tM2-wliWECYjaOeWMUDnDH-_c-XFSJXyJErzMFYuXoJoBr_hiqP-3vPVQUKYBmP2ZlZ9kQOpPidz0MEjLUQjbMJ1YDFDtpd0XQYSHoNOAhHPU2MJtT8U1pj4wOKEvOvINa-SDLNjvvJZ1AIesb9pBHQ5N8Y/s330/Vinoba_Bhave_University_logo.png",
-      alt: "Vinoba bhave university",
-      href: "https://www.vbu.ac.in/login",
+      src: "/GUGLogo.jpg",
+      alt: "Gurugram University",
+      href: "https://gurugramuniversity.ac.in/",
     },
     {
       id: 1.5,

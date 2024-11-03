@@ -19,7 +19,7 @@ const Highlights = () => {
             icon={faGraduationCap}
             heading={"UGC Recog. Program"}
             text={
-              "Our courses lead to degrees from Vinoba Bhave University, UGC recognized and widely accepted. Open doors to diverse career opportunities in pvt, Gov & MNCs."
+              "Our courses lead to degrees from Gurugram University, UGC recognized and widely accepted. Open doors to diverse career opportunities in pvt, Gov & MNCs."
             }
           />
           <Highlight

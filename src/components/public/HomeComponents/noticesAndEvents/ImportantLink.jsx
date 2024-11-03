@@ -1,33 +1,33 @@
 const ImportantLink = () => {
   const impLinks = [
     {
-      text: "» E-Kalyan Scholarship",
-      path: "https://ekalyan.cgg.gov.in/",
+      text: "» Check Your Result",
+      path: "https://gurugramuniversity.ac.in/",
     },
     {
-      text: "» Exam Form - vbunuiv.in",
-      path: "https://www.vbuuniv.in/vbuexamform/login",
+      text: "» Exam Form - GUG",
+      path: "https://gurugramuniversity.ac.in/",
     },
     {
-      text: "» Vinoba Bhave University (VBU)",
-      path: "http://vbu.ac.in/",
+      text: "» All syllabus Download ",
+      path: "https://gurugramuniversity.ac.in/academics/syllabus/index.php",
     },
     {
-      text: "» Download Admit Card - vbunuiv.in",
-      path: "https://www.vbuuniv.in/login",
+      text: "» Download Admit Card - GUG ",
+      path: "https://gurugramuniversity.ac.in/AIMS_PMC/index.php",
     },
     {
       text: "» Academic Bank of Credits (abc id)",
-      path: "https://www.abc.gov.in/",
+      path: "https://gurugramuniversity.ac.in/",
     },
 
     {
-      text: "» Check Result - vbunuiv.in",
-      path: "http://result.vbuuniv.in/vbuuniv/student/result/pg/preview",
+      text: "» Check Result - GUG ",
+      path: "https://gurugramuniversity.ac.in/AIMS_PMC/index.php",
     },
     {
       text: "» University Grants Commission (UGC)",
-      path: "https://www.ugc.ac.in/",
+      path: "https://gurugramuniversity.ac.in/AIMS_PMC/index.php",
     },
   ];
   return (

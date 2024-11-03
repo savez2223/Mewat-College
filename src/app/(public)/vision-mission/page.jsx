@@ -1,16 +1,16 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Vision and Mission - Markham College of Commerce, Hazaribagh",
+  title: "Vision and Mission - Mewat Engineering College, Mewat",
   description:
-    "Discover the legacy of education and excellence at Markham College of Commerce, Hazaribagh. Our vision is to empower future leaders through comprehensive commerce education, fostering ethical values and critical thinking. Explore our rich history, from our founding in 1974 by B. D. Jaiswal to becoming a hub of academic growth. Join us in shaping a brighter future for students in Hazaribagh and beyond.",
+    "Discover the legacy of education and excellence at Mewat Engineering College, Mewat. Our vision is to empower future leaders through comprehensive commerce education, fostering ethical values and critical thinking. Explore our rich history, from our founding in 1974 by B. D. Jaiswal to becoming a hub of academic growth. Join us in shaping a brighter future for students in Mewat and beyond.",
 };
 
 const VisionMission = () => {
   return (
     <article className="max-w-screen-lg mx-auto my-12 p-4">
       <h1 className="text-3xl font-bold my-8 text-primary-regular">
-        Vision and Mission -Markham College of Commerce, Hazaribagh
+        Vision and Mission -Mewat Engineering College , Mewat
       </h1>
       <div className="bg-secondary border-t-primary-regular border-t-4 shadow-md rounded-md">
         <Image
@@ -18,17 +18,17 @@ const VisionMission = () => {
           src="https://blogger.googleusercontent.com/img/a/AVvXsEgxu5F2ck-NxCC_sLIsE_ZITTL6tSSZfvgnMNx6eAyPLtAoITCQeIfUx1P2hgmf8o954V62btfNmJ_7jFHlJR3zve_T17fQeBj_5nCkCJq8oJzB9rLX66LYMUqG9fVsVwIRBk-LZtbtiliYCX7ERFtpcm7k_m24eY9af9w-xpgqu_ovzTFxqMgIN9w5HEo"
           width={1000}
           height={500}
-          alt="Markham College of Commerce"
+          alt="Mewat Engineering College"
         />
 
         <div className="container mx-auto p-8">
           <div className="mb-8 text-lg">
             <h2 className="text-xl font-semibold mb-2">Vision and Mission</h2>
             <p className="text-gray-700">
-              At Markham College of Commerce, our vision is to cultivate a
-              vibrant educational environment that empowers students to excel
-              both academically and ethically. Through our unwavering commitment
-              to quality education, we strive to nurture future leaders who
+              At Mewat Engineering College, our vision is to cultivate a vibrant
+              educational environment that empowers students to excel both
+              academically and ethically. Through our unwavering commitment to
+              quality education, we strive to nurture future leaders who
               contribute to the growth and prosperity of society.
             </p>
             <p className="text-gray-700">
@@ -44,12 +44,11 @@ const VisionMission = () => {
           <div className="mb-8 text-lg">
             <h2 className="text-xl font-semibold mb-2">History and Founding</h2>
             <p className="text-gray-700">
-              Markham College of Commerce, Hazaribagh, was established on
-              February 10, 1974, under the visionary leadership of B. D.
-              Jaiswal. Named after the esteemed educationist Arthur Francis
-              Markham, the college&apos;s founding principles were rooted in
-              making higher education accessible to the region&apos;s aspiring
-              minds.
+              Mewat Engineering College,Mewat , was established on February
+              10, 1974, under the visionary leadership of B. D. Jaiswal. Named
+              after the esteemed educationist Arthur Francis , the
+              college&apos;s founding principles were rooted in making higher
+              education accessible to the region&apos;s aspiring minds.
             </p>
             <p className="text-gray-700">
               Dr. Maheshwar Tiwari, alongside a dedicated team of educators

@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
                   src={"/logo.webp"}
                   height={45}
                   width={150}
-                  alt="Markham College of commerce"
+                  alt="Mewat Engineering College"
                 />
               ) : (
                 <Image
@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
                   src={"/mcc-icon.png"}
                   height={45}
                   width={45}
-                  alt={"Markham College Icon"}
+                  alt={"Mewat College Icon"}
                 />
               )}
             </div>
