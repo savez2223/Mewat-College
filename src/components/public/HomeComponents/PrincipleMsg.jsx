@@ -19,8 +19,8 @@ const PrincipleMsg = () => {
             />
           </div>
 
-          <p className=" cursor-pointer bg-primary-regular text-center p-2 w-full text-white font-semibold">
-            Director MEC
+          <p className=" cursor-pointer bg-primary-regular text-center p-2 w-full text-blue-900 font-semibold">
+            <b>Prof. (Dr.) Khwaja M. Rafi</b>
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const PrincipleMsg = () => {
             academic experience!
           </p>
           <div className="text-right my-4">
-            <p className="font-semibold">Director</p>
+            <p className="font-bold">Director MEC</p>
           </div>
         </div>
       </div>

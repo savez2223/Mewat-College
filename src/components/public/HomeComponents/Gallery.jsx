@@ -2,12 +2,19 @@ import Heading2 from "@components/Heading2";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
+import image1 from "../../../../public/College-Gallary/1.jpg";
+import image2 from "../../../../public/College-Gallary/2.jpg";
+import image3 from "../../../../public/College-Gallary/3.jpg";
+import image4 from "../../../../public/College-Gallary/4.jpg";
+import image5 from "../../../../public/College-Gallary/5.jpeg";
+import image6 from "../../../../public/College-Gallary/6.jpg";
 
 const Gallery = () => {
   return (
     <section className="my-6">
-      <div className="max-w-screen-xl mx-auto container p-3 flex flex-wrap">
-        <div className=" w-full mb-20 flex-wrap">
+      <div className="max-w-screen-xl mx-auto container p-3">
+        {/* Header Section */}
+        <div className="w-full mb-20">
           <Heading2 headingText={"Gallery"} />
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-center">
             <FontAwesomeIcon
@@ -23,63 +30,56 @@ const Gallery = () => {
             />
           </p>
         </div>
+
+        {/* Image Grid */}
         <div className="flex flex-wrap md:-m-2 -m-1">
+          {/* Left Column */}
           <div className="flex flex-wrap md:w-1/2">
-            <div className={`md:p-2 p-1 w-1/2`}>
+            <div className="md:p-2 p-1 w-1/2">
               <Image
                 alt="gallery"
-                className={` w-full object-cover h-full object-center block`}
+                className="w-full h-40 lg:h-52 object-cover rounded-lg"
                 width={250}
                 height={150}
-                src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUTDXp_X_hUeoyUE5ZXNOLZWoWbsDql5YFWEIJUaV7DnT6gMrbPOZHLVih1TsLpzLQzFayPH9ARMMwHcvR0kn00PCpCkxIAYV_KJDtmpJnbX_hwcAebet6IMja2BQiQWgm3NGRGCfqUvCdePzLUyjKFlOvKTxBur3NmHjoIkeWIu-3YyYTxth6CMHkkFc/s320/MCC_Auditorium.jpg"
-                }
+                src={image4}
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <Image
                 alt="gallery"
-                className="w-full object-cover h-full object-center block"
+                className="w-full h-40 lg:h-52 object-cover rounded-lg"
                 width={250}
                 height={150}
-                src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1wrDV8r1zw7c5k0S3BlPMGhGFemXmJuu1WaGJpj_L_S4wzUKU8Fl7RtNS496KsBXxlJSRiAzrEY8xmWQ2ym85-nW0r0Y1LV2qMIrcrVCnnrlHCq_SnjB_zcovChU9dv8JV2IHXqxCkZLk58cwQR0VhUTzwvWfLG64d9kKOLnjakvh4Ze8G_0eWWMlGqk/s320/Independence_day_Events.jpg"
-                }
+                src={image2}
               />
             </div>
             <div className="md:p-2 p-1 w-full">
               <Image
                 alt="gallery"
-                className="w-full h-60 lg:h-80 object-cover object-center block"
-                src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSdlplNPgVlO30DeAS6HvdsU_FAH52iUkdHAwSjD4NlRfEH-8ZGI97JqReobEHlppsLrG8I6ZkeL09VaHXhWHFuAR0rmsWMAbL-8AveEUilBIF79ByB-keGppHYffovcxHwN6mnUJqi2bvStoEer8vmILwwZYtVGbEnBQoAk39w0ir7KACsAbnEOuE_r8/s1360/ncc.jpg"
-                }
+                className="w-full h-60 lg:h-80 object-cover rounded-lg"
+                src={image3}
                 width={500}
                 height={300}
               />
             </div>
           </div>
-          {/* ========= */}
-          <div className={` flex flex-wrap md:w-1/2`}>
-            <div className=" md:p-2 p-1 w-full">
+
+          {/* Right Column */}
+          <div className="flex flex-wrap md:w-1/2">
+            <div className="md:p-2 p-1 w-full">
               <Image
                 alt="gallery"
-                className="w-full h-60 lg:h-80 object-cover object-center block"
-                src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy0tv-B__tMoaNlAkTTM1pYeuUF0zaJf7FgMZ0a5cmD41xStwa3jKQfXbgmc_KITbdr91lydt21EJAS3dkCyljzAPL_rti6g6zCT602sL9nqgiUksEELM5cST_9Er2k4MX9LhJsTCmJoFr91Gd5oT5YU-X9QaU6Or1mNEZ3WCnCUYspdp28B2kGGvwaC0/s320/Republicday.webp"
-                }
-                height={300}
-                width={500}
+                className="w-full h-80 lg:h-96 object-cover rounded-lg"
+                src={image1}
+                height={400}
+                width={600}
               />
             </div>
-
             <div className="md:p-2 p-1 w-1/2">
               <Image
                 alt="gallery"
-                className="w-full object-cover h-full object-center block"
-                src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSBKafvV8nrodbFjlujrlY18D3ZMvb7nEVdxRUBhCSg45job3b6aCNEL5p1_WLsGzWJ655qEpL13jrI4askHs9T9TkqNJyCL5jBXUy5-fyq1xuvFPldFT7SbPqkUXGHT3LqbJ8TbLD34eg-8OUlIXEgIyhGPmSnrisfIk-a822jvnFOUXcWkv0_J-ywuk/s720/Laboratory.jpg"
-                }
+                className="w-full h-40 lg:h-52 object-cover rounded-lg"
+                src={image5}
                 width={250}
                 height={150}
               />
@@ -87,10 +87,8 @@ const Gallery = () => {
             <div className="md:p-2 p-1 w-1/2">
               <Image
                 alt="gallery"
-                className="w-full object-cover h-full object-center block"
-                src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDMUORQ4f5blgmXQUYnnZAicB2DX7vDNI8unGjnaC96VwitidpG8Zh4Sp2_uvXEp38y4BpmEXuho7vODwVtVZm-cAkm0ngwQgMnNi3TcHnTUEmfiqKN0b8_DeFavv70xy8vaG2wqelEZu1-ufQ_kCieXDxWuyblgK8IQOaGFp4Uwiy0Rr3gjg8gEn8iPU/s720/MCC_Events.jpg"
-                }
+                className="w-full h-40 lg:h-52 object-cover rounded-lg"
+                src={image6}
                 width={250}
                 height={150}
               />

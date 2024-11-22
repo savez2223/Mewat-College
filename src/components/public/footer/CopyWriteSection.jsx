@@ -6,9 +6,9 @@ const CopyWriteSection = () => {
         Developed by&nbsp;
         <a
           href="https://zuridox-website-bolt.vercel.app/"
-          className="hover:text-primary-regular duration-500"
+          className="text-yellow-500 hover:text-primary-regular duration-500"
         >
-          Zuridox
+          <b>Zuridox</b>
         </a>
       </p>
     </div>
