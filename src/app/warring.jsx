@@ -35,10 +35,17 @@ export default function Warring() {
 
         <p className="border-t-2 border-black pt-4">
           Please be informed that this website is not affiliated with Mewat
-          Engineering College , Mewat . It has been independently developed
-          by Mo Savez. The data displayed on this website is
-          for demonstration purposes only and holds no association with the
-          college.
+          Engineering College. It has been independently developed by{" "}
+          <a
+            href="https://zuridox-website-bolt.vercel.app/" // Replace with your website link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline"
+          >
+            Zuridox
+          </a>
+          . The data displayed on this website is for demonstration purposes
+          only and holds no association with the college.
         </p>
         <div className="w-24 self-end mt-4" onClick={storeDisclaimer}>
           <SubmitButton text={"Got It"} />

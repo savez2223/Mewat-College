@@ -5,10 +5,10 @@ const CopyWriteSection = () => {
       <p>
         Developed by&nbsp;
         <a
-          href="https://github.com/amanrajrana"
+          href="https://zuridox-website-bolt.vercel.app/"
           className="hover:text-primary-regular duration-500"
         >
-          Md Savez
+          Zuridox
         </a>
       </p>
     </div>

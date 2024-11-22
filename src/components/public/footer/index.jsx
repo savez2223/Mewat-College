@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import GetInTouch from "./GetInTouch";
 import CopyWriteSection from "./CopyWriteSection";
 import GoogleMap from "./GoogleMap";
+import MEC_Logo from "../../../../public/MEC_Logo2.png";
 
 const Footer = () => {
   return (
@@ -12,9 +13,9 @@ const Footer = () => {
         <div className="col-span-3">
           <Image
             className="max-w-full invert self-center mx-auto"
-            src={"/MEC Logo.jpeg"}
+            src= {MEC_Logo}
             alt="Mewat Engineering College"
-            height={150}
+            height={200}
             width={300}
           />
         </div>
